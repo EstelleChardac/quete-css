@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+    display: flex;
+    background: #303030;
+  }
+  
+  ul li {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  ul li {
+    display: block;
+    color: lightgrey;
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+ li.fellows {
+  display: flex;
+  align-items: center;
+  background-color: grey;
+ }
+
+.carousel {
+display: block;
+margin-left: 5px;
+margin-right: 5px;
+height: 150px;
+background-color: lightgrey;
+}
+
+.quote {
+font-size: 10px;  
+  display: block; 
+  padding: 20px; 
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+}
+
+.box {
+  width: 28%;
+  height: 15rem;
+  padding: 15px;
+  background-color: lightgrey;
+  display: inline-block;
+  vertical-align: middle
+}
+
+.contactform {
+  font-size: 10px;
+}
+
+input, textarea {
+  width: 60%;
+  margin: 5px;
+  padding: 10px;
+  font-size: 10px;
+}
+
+textarea {
+  height: 180px;
+}
